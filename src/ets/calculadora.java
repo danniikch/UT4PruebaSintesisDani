@@ -8,6 +8,8 @@ package ets;
 
 public class calculadora {
     
+    private int oper2;
+private int operador;    
 private int operador1;
 
     public int getOperador1() {
@@ -33,8 +35,6 @@ private int operador1;
     public void setOperador(int operador) {
         this.operador = operador;
     }
-private int oper2;
-private int operador;
     
     public static void main(String[] args) {
       
