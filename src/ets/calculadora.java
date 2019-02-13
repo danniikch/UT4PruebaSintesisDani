@@ -26,15 +26,15 @@ private int operador1;
         this.operador2 = operador2;
     }
 
-    public int getOperacion() {
-        return operacion;
+    public int getOperador() {
+        return operador;
     }
 
-    public void setOperacion(int operacion) {
-        this.operacion = operacion;
+    public void setOperador(int operador) {
+        this.operador = operador;
     }
 private int operador2;
-private int operacion;
+private int operador;
     
     public static void main(String[] args) {
       
