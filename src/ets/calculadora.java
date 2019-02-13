@@ -8,6 +8,8 @@ package ets;
 
 public class calculadora {
     
+    private int oper2;
+private int operador;    
 private int operador1;
 /**
  * 
@@ -23,38 +25,26 @@ private int operador1;
     public void setOperador1(int operador1) {
         this.operador1 = operador1;
     }
-/**
- * 
- * @return  variable entera
- */
-    public int getOperador2() {
-        return operador2;
+
+    public int getOper2() {
+        return oper2;
     }
-/**
- * 
- * @param operador2 variable entera
- */
-    public void setOperador2(int operador2) {
-        this.operador2 = operador2;
+
+    public void setOper2(int oper2) {
+        this.oper2 = oper2;
     }
-/**
- * 
- * @return variable entera 
- */
-    public int getOperacion() {
-        return operacion;
+
+    public int getOperador() {
+        return operador;
     }
     /**
      * 
-     * @param operacion variable entera 
+     * @param operador variable entera 
      */
 
-    public void setOperacion(int operacion) {
-        this.operacion = operacion;
+    public void setOperador(int operador) {
+        this.operador = operador;
     }
-   
-private int operador2;
-private int operacion;
     
     public static void main(String[] args) {
       
